@@ -1,7 +1,7 @@
 import pandas as pd 
 
 #importando csv
-cad = pd.read_csv('20220906_UNIMED183_BENEFICIARIO_NEW.csv', encoding = 'latin-1', delimiter = ';')
+cad = pd.read_csv('20220906_...183_...._NEW.csv', encoding = 'latin-1', delimiter = ';')
 
 #Inclusão de colunas
 cad['Provedor_Codigo'] = 793
@@ -128,4 +128,4 @@ cad.loc[cad['EstadoCivil'] == 6 , 'EstadoCivil'] = 'União Estavel'
 #exportando csv 
 cad.head(2)
 #Exportar o arquivo
-cad.to_csv('Cadastro_CM.csv', index = False)
+cad.to_csv('...._CM.csv', index = False)
